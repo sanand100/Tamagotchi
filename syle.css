@@ -1,0 +1,28 @@
+body {
+    background-image: url(./assets/park-background.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.start-flex-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-game-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: peachpuff;
+    height:30%;
+    width: 60%;
+    text-align: center;
+}
+
+.get-started-button {
+    margin-top: 40px;
+    font-size: 25px;
+}
