@@ -37,6 +37,7 @@ function init() {
 	mainPage.forEach(function (element) {
 		element.style.visibility = 'visible';
 	});
+
 	// initialize pet's age at 0
 	age = 0;
 	//initialize other stats at 0 (hunger, sleepiness, boredom)
