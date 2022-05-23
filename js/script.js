@@ -22,6 +22,8 @@ let sleepiness;
 /*----- cached element references -----*/
 const getStarted = document.querySelector('.get-started-button');
 const startDiv = document.querySelector('.start-game-modal');
+const body = document.querySelector('body');
+const mainPage = document.querySelectorAll('.main-page');
 
 /*----- event listeners -----*/
 getStarted.addEventListener('click', init);
@@ -30,12 +32,16 @@ getStarted.addEventListener('click', init);
 function init() {
 	//have to hide get started modal
 	startDiv.style.display = 'none';
-	// '.get-started-button'.click(function () {
-	// 	'start-game-modal'.modal('toggle');
-	// });
-
+	// body.style.backgroundImage = "url('./assets/park-background.webp')";
+	body.style.backgroundColor = 'rgb(74, 245, 150)';
+	mainPage.forEach(function (element) {
+		element.style.visibility = 'visible';
+	});
+	// initialize pet's age at 0
 	age = 0;
+	//initialize other stats at 0 (hunger, sleepiness, boredom)
 	hunger = 0;
 	boredom = 0;
 	sleepiness = 0;
+	//Initialize timers for age, hunger, sleepiness, and boredom
 }

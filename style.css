@@ -1,8 +1,7 @@
-body {
-    background-image: url(./assets/park-background.webp);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+header{
+    background-color: rgb(74,245,150);
+    height: 25%;
 }
 
 .start-flex-container{
@@ -25,4 +24,11 @@ body {
 .get-started-button {
     margin-top: 40px;
     font-size: 25px;
+}
+.stats-div  {
+    float: left;
+}
+
+.main-page{
+    visibility: hidden;
 }
