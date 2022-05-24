@@ -24,9 +24,11 @@ const getStarted = document.querySelector('.get-started-button');
 const startDiv = document.querySelector('.start-game-modal');
 const body = document.querySelector('body');
 const mainPage = document.querySelectorAll('.main-page');
+const feed = document.querySelector('#feed');
 
 /*----- event listeners -----*/
 getStarted.addEventListener('click', init);
+feed.addEventListener('click', init);
 
 /*----- functions -----*/
 function init() {
